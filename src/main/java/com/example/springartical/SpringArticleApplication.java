@@ -6,11 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-public class SpringArticalApplication {
+public class SpringArticleApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext context =
-                SpringApplication.run(SpringArticalApplication.class, args);
+                SpringApplication.run(SpringArticleApplication.class, args);
 
         StudentService studentService =
                 context.getBean(StudentService.class);
